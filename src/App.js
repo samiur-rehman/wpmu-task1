@@ -41,7 +41,6 @@ function App() {
   return (
     <>
       <div className="container">
-       
           <div className="box">
             <div>
               <h2>Let's set up your account</h2>
