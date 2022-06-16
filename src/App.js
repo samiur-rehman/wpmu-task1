@@ -33,7 +33,7 @@ function App() {
     setisDisabled(
       !username ||
         !regex.test(email) ||
-        !password ||
+        password.length<8 ||
         roletype === "default" ||
         !roletype
     );
